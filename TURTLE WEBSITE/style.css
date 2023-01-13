@@ -1,0 +1,228 @@
+body{
+    background-attachment:scroll;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+p{
+    text-align: justify;
+    margin: 0;
+    padding:0;
+    line-height: 1;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    padding:0;
+    line-height:1.4;
+    font-family: 'Caveat', cursive;
+}
+.navbar2 h1{
+    font-family: 'Caveat', cursive;
+}
+
+img{  
+    width: 30%;
+    border: 4px solid;
+    color: white;
+    height: 30%;
+    border-bottom: none;
+    border-top: none;
+    box-shadow: 7px 7px 10px rgb(2, 2, 53) ;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #272727;
+ }
+
+.navbar2{
+    background-image: linear-gradient(rgb(113, 131, 146),rgb(55, 126, 150),rgb(4, 136, 136));
+    color:aquamarine;
+    width: 100%;
+    height: 280px;
+    margin-top: 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.left{
+    margin-left: 60px;
+    width: 20%;
+    float: left;
+    color:rgb(249, 251, 252);
+}
+
+.right{
+    color:white;
+    float:right;
+    padding-top: 10px;
+} 
+
+.option{
+    width: 70%;
+   float: right;
+}
+
+ul {
+   list-style-type: none;
+   margin-top: 20px;
+   float:right;
+   padding: 0;
+   overflow: hidden;
+   cursor:grab;
+ }
+
+li {
+   float: left;
+ }
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: #111111;
+}
+.idhar{
+    width: 50%;
+    color: white;
+    float: left;
+    height: 300px;
+    margin-left: 80px;
+    padding-right: 20px;
+}
+.button{
+    background-color: rgb(252, 155, 64);
+    cursor: grab;
+    border-radius: 8px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-color: rgb(252, 155, 64);
+    margin-top: 10px;
+    box-shadow: 2px 2px 3px rgb(204, 181, 170) ;
+}
+.button:hover{
+    background-color:rgb(196, 211, 109);
+}
+.all{
+    Display:flex;
+    width: 100%;
+    height:470px;
+    background-image: linear-gradient(rgb(139, 191, 236),rgb(64, 142, 168),rgb(16, 90, 90));
+
+}
+.navbar3{
+    width: 100%;
+    height: 470px;
+    display:flex;
+    background-image:linear-gradient(rgb(139, 191, 236),rgb(64, 142, 168),rgb(16, 90, 90));
+    float:left;
+}
+
+.navbar3 p{
+    padding-top: 20px;   
+}
+.services{
+    background-color: beige;
+    float:left;
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    box-shadow: 7px 7px 10px rgb(2, 2, 53) ;
+}
+.services img{
+    width: 50%;
+    border: 6px solid;
+    color: white;
+    height:170px;
+    margin-top: 20px;
+}
+.help{
+    background-color: beige;
+    float:right;
+    width: 30%;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    box-shadow: 7px 7px 10px rgb(2, 2, 53);
+}
+.help img{
+    width: 50%;
+    border: 6px solid;
+    color: white;
+    height:170px;
+    margin-top: 20px;
+}
+.news{
+    float:left;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float:right;
+    display:flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.footer{
+    background-color: #111111;
+    display:flex;
+    justify-content: space-around;
+    height:120px;
+    width:100%;
+    margin-top: 10px;
+}
+.foot{
+   float: left;
+   width: 500px;
+   height:250px;
+   color: white;
+   margin-left:60px;
+   margin-right:200px;
+   padding-right:none;
+   padding-top:5px;
+}
+.rightfoot{
+   color: white;
+   height: 150px;
+   width: 500px;
+   margin-left: 50px;
+   margin-right:60px;
+   padding-top: 5px;
+}
+
+.jobhi{
+    background-color: #111111;
+    color: azure;
+    padding-bottom: 10px;
+}
+hr{
+    color: white;
+}
+
+.icon{
+    text-align: center;
+}
+.icon img{
+    width: 8%;
+    border: 0px solid;
+    height: 10%;
+    margin-left:50px;
+    padding-top: 10px;
+}
