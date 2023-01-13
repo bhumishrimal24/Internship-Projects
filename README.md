@@ -1,2 +1,2 @@
 # Internship-Projects
-# Projects I have done during internship.
+Projects I have done during internship.
