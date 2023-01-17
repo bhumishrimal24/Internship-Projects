@@ -1,0 +1,233 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+p{
+    text-align: justify;
+    margin: 0;
+    padding:0;
+    line-height: 1;
+}
+h2{
+    text-align: center;
+    margin: 0;
+    padding:0;
+    line-height:1.4;
+    font-family: 'Caveat', cursive;
+}
+mark{
+    background-color: rgb(160, 211, 245);
+}
+.navbar2 h1{
+    font-family: 'Caveat', cursive;
+}
+
+img{  
+    width: 30%;
+    border: 4px solid;
+    color: white;
+    height: 30%;
+    border-bottom: none;
+    border-top: none;
+    box-shadow: 7px 7px 10px rgb(2, 2, 53) ;
+}
+.navbar{
+    width: 100%;
+    height: 80px;
+    background-color: #272727;
+    margin-top: 10px;
+}
+
+.navbar2{
+    background-image: linear-gradient(rgb(31, 78, 117),rgb(16, 72, 90),rgb(23, 24, 24));
+    color:aquamarine;
+    width: 100%;
+    height: 270px;
+    margin-top: 10px;
+}
+
+.left{
+    margin-left: 60px;
+    width: 20%;
+    float: left;
+    color:rgb(249, 251, 252);
+    padding-top: 20px;
+}
+
+.option{
+    width: 70%;
+   float: right;
+}
+
+ul {
+   list-style-type: none;
+   margin-top: 20px;
+   float:right;
+   padding: 0;
+   overflow: hidden;
+   cursor:grab;
+ }
+
+li {
+   float: left;
+ }
+
+li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 16px;
+   text-decoration: none;
+}
+
+li a:hover {
+   background-color: #111111;
+}
+.idhar{
+    width: 50%;
+    color: white;
+    float: left;
+    height: 250px;
+    margin-left: 80px;
+    padding-right: 20px;
+    padding-top: 30px;
+
+}
+.button{
+    background-color: rgb(15, 15, 15);
+    cursor: grab;
+    border-radius: 8px;
+    padding: 10px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-color: rgb(15, 15, 15);
+    margin-top: 10px;
+    box-shadow: 2px 2px 3px rgb(128, 124, 122) ;
+    color: aliceblue;
+}
+.button:hover{
+    background-color:rgb(156, 153, 153);
+}
+.all{
+    Display:flex;
+    width: 100%;
+    height:470px;
+
+}
+.navbar3{
+    width: 100%;
+    height: 470px;
+    display:flex;
+    background-image:linear-gradient(rgb(208, 225, 240),rgba(64, 142, 168, 0.616),rgb(16, 90, 90));
+    float:left;
+}
+
+.navbar3 p{
+    padding-top: 20px;   
+}
+.services{
+    background-color: beige;
+    float:left;
+    width: 30%;
+    margin-left: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    box-shadow: 7px 7px 10px rgb(2, 2, 53) ;
+}
+.services img{
+    width: 50%;
+    border: 6px solid;
+    color: white;
+    height:170px;
+    margin-top: 20px;
+}
+.help{
+    background-color: beige;
+    float:right;
+    width: 30%;
+    margin-left: 140px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 30px;
+    box-shadow: 7px 7px 10px rgb(2, 2, 53);
+}
+.help img{
+    width: 50%;
+    border: 6px solid;
+    color: white;
+    height:170px;
+    margin-top: 20px;
+}
+.news{
+    float:left;
+    width: 30%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    float:right;
+    display:flex;
+    flex-direction: column;
+    padding-top: 20px;
+    line-height: 2;
+}
+
+.footer{
+    background-color: #111111;
+    display:flex;
+    justify-content: space-around;
+    height:120px;
+    width:100%;
+    margin-top: 10px;
+}
+.foot{
+   float: left;
+   width: 500px;
+   height:150px;
+   color: white;
+   margin-left:60px;
+   margin-right:200px;
+   padding-right:none;
+   padding-top:5px;
+}
+.rightfoot{
+   color: white;
+   height: 150px;
+   width: 500px;
+   margin-left: 50px;
+   margin-right:60px;
+   padding-top: 5px;
+}
+
+.jobhi{
+    background-color: #111111;
+    color: azure;
+    padding-bottom: 10px;
+}
+hr{
+    color: white;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.icon{
+    text-align: center;
+
+}
+.icon img{
+    width: 8%;
+    border: 0px solid;
+    height: 10%;
+    margin-left:50px;
+    padding-top: 10px;
+    box-shadow: none;
+}
